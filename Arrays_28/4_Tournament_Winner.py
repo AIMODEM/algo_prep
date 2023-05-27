@@ -19,9 +19,9 @@ def updateScores(team, points, scores):
     if team not in scores:
         scores[team] = 0
     scores[team] += 3
- # #############################################################
+# #############################################################
 
- # SOLUTION 2:
+# SOLUTION 2:
 def tournamentWinnerSOlution2(competitions, results):
     scores = dict()
     for idx,competition in enumerate(competitions):
